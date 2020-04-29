@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--这个xml是映射配置文件-->
+<mapper namespace="com.itjiao.dao.IUserDao">
+    <!--    配置 查询所有-->
+    <select id="findAll" resultType="com.itjiao.domain.User">
+        select * from user
+    </select>
+
+
+    <insert id="saveUser" parameterType="com.itjiao.domain.User">
+    <!--
+     keyProperty 实体类中的属性名
+     keyColumn 数据表中的列名
+     order 先执行还是后执行这条语句
+     -->
+     <selectKey keyProperty="id" keyColumn="id" resultType="int" order="AFTER">
+         SELECT
+         LAST_INSERT_ID();
+     </selectKey>
+
+     insert into User(username,birthday,sex,address) values(#{username},#{birthday},#{sex},#{address});
+ </insert>
+
+ <update id="updateUser" parameterType="com.itjiao.domain.User">
+     update User set
+         username=#{username},
+         birthday=#{birthday},
+         sex=#{sex},
+         address=#{address}
+     where
+         id=#{id};
+ </update>
+
+
+ <!--    因为只有一个参数，所以下面#{}里只需要写一个占位符即可，可以是userid，id,aaa-->
+    <delete id="deleteUser" parameterType="java.lang.Integer">
+        delete from User where id=#{idaaaaaaaa}
+    </delete>
+
+    <select id="findUserById" parameterType="java.lang.Integer" resultType="com.itjiao.domain.User">
+        select * from USER where id=#{id}
+    </select>
+
+
+    <select id="findByName" parameterType="string" resultType="com.itjiao.domain.User">
+        <!--  注意注释方式，- 这种注释加在sql语句中会报错 -->
+
+        <!--      PrepareStatement的参数占位符，这种更好 -->
+                 select * from USER where username like #{name}
+
+
+        <!-- 此处一定要写成 value，不能是别的占位符 -->
+        <!--         Statement对象的字符串拼接sql -->
+        <!-- select * from USER where username like '%${value}%' -->
+    </select>
+
+    <select id="getAllUserCount" resultType="int">
+                        select count(id) as count from USER
+                    </select>
+
+</mapper>
