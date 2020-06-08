@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d1ce3c8-b453-409f-b26e-043ae7c3d561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../mybatis-learn-cls1/.idea/mybatis-learn-cls1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-learn-cls1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MybatisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis-learn-cls1/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis-learn-cls1/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis-learn-cls1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis-learn-cls1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-CRUD-cls4/.idea/mybatis-CRUD-cls4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis-CRUD-cls4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis-CRUD-cls4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis-CRUD-cls4/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis-CRUD-cls4/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,21 +45,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jiao\Desktop\mybatis-learn\mybatis实现类-cls3\src\main" />
-      <recent name="C:\Users\jiao\Desktop\mybatis-learn\mybatis实现类-cls3\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jiao\Desktop\mybatis-learn\mybatis实现类-cls3\src" />
       <recent name="C:\Users\jiao\Desktop\mybatis-learn\mybatis实现类-cls3" />
       <recent name="C:\Users\jiao\Desktop\mybatis-learn\mybatis实现类-cls3\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jiao\Desktop\mybatis-learn\mybatis实现类-cls3\src\main" />
+      <recent name="C:\Users\jiao\Desktop\mybatis-learn\mybatis实现类-cls3\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -104,6 +101,8 @@
       <workItem from="1587793980035" duration="662000" />
       <workItem from="1587815316103" duration="1488000" />
       <workItem from="1587816832227" duration="2150000" />
+      <workItem from="1589887943210" duration="460000" />
+      <workItem from="1589888523783" duration="773000" />
     </task>
     <servers />
   </component>

@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1ed7409-d7a0-4e46-82c3-96432a5a1feb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../mybatis-CRUD-cls4/.idea/mybatis-CRUD-cls4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis-CRUD-cls4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis-CRUD-cls4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis-CRUD-cls4/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis-CRUD-cls4/src/main/resources/SqlMapConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis实现类-cls3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis实现类-cls3/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mybatis实现类-cls3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis实现类-cls3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../注解-cls2/target/classes/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../注解-cls2/target/classes/com/itjiao/dao/IUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../注解-cls2/target/classes/com/itjiao/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../注解-cls2/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../注解-cls2/target/test-classes/MybatisTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +104,8 @@
       <workItem from="1587816572479" duration="247000" />
       <workItem from="1587816831185" duration="1779000" />
       <workItem from="1587910211391" duration="1284000" />
+      <workItem from="1591065627970" duration="121000" />
+      <workItem from="1591065953707" duration="25000" />
     </task>
     <servers />
   </component>
